@@ -18,25 +18,25 @@ void test(shellCommandArgs args)
 
 int main()
 {
-	//system("ping 8.8.8.8");
-	//shell s("user");
-	//s.registerCmd("shell/usr", "test", test);
-	//s.shellCore(); 
-	hashTable<String, int> htb;
-	unordered_map<String, int> umap;
+	system("ping 8.8.8.8");
+	shell s("user");
+	s.registerCmd("shell/usr", "test", test);
+	s.shellCore(); 
+	// hashTable<String, int> htb;
+	// unordered_map<String, int> umap;
 
-	clock_t t0 = clock();
+	// clock_t t0 = clock();
 
-	for (int i = 0; i < 10000; ++i) {
-		htb.insert(std::to_string(i), i);
-	}
-	clock_t t1 = clock();
-	for (int i = 0; i < 10000; ++i) {
-		umap.insert(pair<String,int>(std::to_string(i), i));
-	}
-	clock_t t2 = clock();
-	cout << (t1 - t0) << endl;
-	cout << (t2 - t1) << endl;
+	// for (int i = 0; i < 10000; ++i) {
+	// 	htb.insert(std::to_string(i), i);
+	// }
+	// clock_t t1 = clock();
+	// for (int i = 0; i < 10000; ++i) {
+	// 	umap.insert(pair<String,int>(std::to_string(i), i));
+	// }
+	// clock_t t2 = clock();
+	// cout << (t1 - t0) << endl;
+	// cout << (t2 - t1) << endl;
     std::cout << "Hello World!\n"; 
 }
 
