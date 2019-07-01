@@ -18,12 +18,42 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="shellcommandtree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shellCommandArgs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hashTable.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shellSlot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shellcommandtree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shellCommandArgs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="shell.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shellSlot.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
