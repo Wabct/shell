@@ -6,7 +6,6 @@
 #include <vector>
 #include <stack>
 
-
 using String = std::string;
 using uint = unsigned int;
 using uchar = unsigned char;

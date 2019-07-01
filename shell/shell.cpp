@@ -24,6 +24,7 @@ shell::shell(const String& user):
 	_currentdir->registerCmd(new shellCommandTree("switch", &shellcmd_switch));
 }
 
+
 shell::~shell()
 {
 
